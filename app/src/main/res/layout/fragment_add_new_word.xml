@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_addNewWordFragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="2dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="2dp"
+    android:layout_marginBottom="60dp"
+    android:background="@drawable/add_new_word_fragment_background"
+    android:orientation="vertical"
+    tools:context=".Fragments.AddNewWordFragment">
+
+
+    <EditText
+        android:id="@+id/edTv_germanWord_addNewWordFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/word"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#050505" />
+
+    <LinearLayout
+        android:id="@+id/mainDiv_addNewWordFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgB_playPronunciation_addNewWordFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/play_pronunciation"
+                android:enabled="false"
+                android:src="@drawable/baseline_volume_up_24" />
+
+            <ImageButton
+                android:id="@+id/imgB_downloadPronunciation_addNewWordFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/audio_download"
+                android:src="@drawable/baseline_download_24" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_searchEngMeaning_addNewWordFragment"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:text="@string/Search_English_Meaning"
+                app:icon="@drawable/baseline_search_24" />
+
+            <Button
+                android:id="@+id/btn_englishWordEnterManually_addNewWordFragment"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:text="@string/enter_meaning_manually"
+                app:icon="@drawable/baseline_drive_file_rename_outline_24" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/warningDiv_addNewWordFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_englishMeaningNotFoundWarning_addNewWordFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight=".9"
+                android:paddingStart="3dp"
+                android:paddingEnd="3dp"
+                android:text="@string/english_meaning_not_found_warning"
+                android:textColor="#FD3B2D"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/btn_insertManually_addNewWordFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/insert_manually"
+                android:visibility="gone"
+                app:icon="@drawable/baseline_drive_file_rename_outline_24" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/progressBar_addNewWordFragment"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|fill_vertical"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/edTv_englishMeaning_addNewWordFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:enabled="false"
+                android:hint="@string/English_Meaning"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColor="#120F0F" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_add_addNewWordFragment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="@string/Add_This_Word"
+            app:icon="@drawable/baseline_add_to_list_24" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight=".1" />
+
+        <Button
+            android:id="@+id/btn_cancel_addNewWordFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/cancel"
+            app:icon="@drawable/baseline_rounded_close_24" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/shoUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+
+</LinearLayout>

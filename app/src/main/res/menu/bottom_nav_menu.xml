@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/add_new_word"
+        android:icon="@drawable/baseline_add_to_list_24"
+        android:title="@string/title_add" />
+
+    <item
+        android:id="@+id/show_all_word"
+        android:icon="@drawable/baseline_list_view_24"
+        android:title="@string/title_list" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="@string/title_profile" />
+
+</menu>

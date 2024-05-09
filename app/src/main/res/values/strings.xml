@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">WortGewandt</string>
+
+
+    <string name="title_activity_bottom">bottom</string>
+    <string name="title_home">Home</string>
+    <string name="title_add">Add</string>
+    <string name="title_list">List</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="audio_available">Audio Available</string>
+    <string name="stored_words">Stored words:</string>
+    <string name="_20_words">20 words</string>
+    <string name="_12">12</string>
+    <string name="listen">Listen</string>
+    <string name="cancel">Cancel</string>
+    <string name="wort_spiel">Wort Spiel</string>
+    <string name="mistakes">Mistakes</string>
+    <string name="Search_English_Meaning">Search English Meaning</string>
+    <string name="word">Word</string>
+    <string name="german_word">German Word</string>
+    <string name="English_Meaning">English Meaning</string>
+    <string name="Add_This_Word">Add This Word</string>
+    <string name="english_meaning_not_found_warning">* english meaning not found. you can enter the meaning manually</string>
+    <string name="insert_manually"> Do you want to insert it manually?</string>
+    <string name="audio_download"> Audio Download</string>
+    <string name="play_pronunciation"> Play Pronunciation</string>
+    <string name="enter_meaning_manually">Enter Meaning Manually</string>
+
+
+    <string name="local_file_name">wordList.ser</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="false_answer">False answer</string>
+    <string name="no_audio">no audio</string>
+    <string name="next">Next</string>
+    <string name="play_pause">play/pause</string>
+    <string name="previous">Previous</string>
+    <string name="wort">Wort</string>
+
+</resources>
