@@ -8,6 +8,8 @@ import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -49,9 +51,12 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         int index = position;
+
+        //set values accordingly
         Wort wort = recArrayList.get(index).getValue();
         holder.tv_germanWord.setText(wort.getGermanWord());
         holder.tv_englishMeaning.setText(wort.getEnglishMeaning());
+        holder.checkBox.setChecked(wort.isSelected());
 
         byte[] pronunciation = wort.getPronunciation();
         //if pronunciation is available change color to green
@@ -59,6 +64,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
                 //toggle green color
                 pronunciation!=null?255:0,
                 0)));
+
+        //set functionality
         holder.playAudio.setOnClickListener(View->{
             if (pronunciation!=null){
                 Pronunciation.playPronunciationMp3(context.get(), pronunciation);
@@ -74,6 +81,17 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
         holder.editBtn.setOnClickListener(View->{
             changeFragment.changeToAddFragment(recArrayList.get(index));
+        });
+
+        holder.checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                wort.setSelected(b);
+                Data.getInstance().editEntry(recArrayList.get(index),
+                        wort.getGermanWord(),
+                        wort);
+                notifyDataSetChanged();
+            }
         });
 
     }
@@ -103,6 +121,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         public TextView tv_germanWord,tv_englishMeaning;
         public ImageButton playAudio,editBtn,deleteBtn;
 
+        public CheckBox checkBox;
+
         public ViewHolder(@NonNull View itemView){
             super(itemView);
             tv_germanWord = itemView.findViewById(R.id.tv_germanWord_cardView);
@@ -110,6 +130,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
             playAudio = itemView.findViewById(R.id.btn_playAudio_cardView);
             deleteBtn = itemView.findViewById(R.id.img_delete_cardView);
             editBtn = itemView.findViewById(R.id.img_editButton_cardView);
+            checkBox = itemView.findViewById(R.id.checkBox_cardView);
         }
     }
 }

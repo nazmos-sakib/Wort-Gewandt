@@ -37,5 +37,8 @@
     <string name="play_pause">play/pause</string>
     <string name="previous">Previous</string>
     <string name="wort">Wort</string>
+    <string name="edit_this_word">Edit this word</string>
+    <string name="check_box">Check Box</string>
+    <string name="delete">Delete</string>
 
 </resources>

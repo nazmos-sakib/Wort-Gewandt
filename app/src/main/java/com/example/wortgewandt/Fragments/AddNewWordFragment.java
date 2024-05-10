@@ -100,8 +100,7 @@ public class AddNewWordFragment extends Fragment {
 
         //close
         btn_cancel.setOnClickListener(View->{
-            //closeBottomSheet();
-            this.changeFragment.changeToHomeFragment();
+            closeFragment();
         });
 
         //word edit view
@@ -202,9 +201,7 @@ public class AddNewWordFragment extends Fragment {
                             aMp3
                     )
             )){
-                this.isPreset = false;
-                this.presetEntry = null;
-                this.changeFragment.changeToHomeFragment();
+                closeFragment();
             }
         } else {
             if (Data.getInstance().addNewWord(
@@ -216,12 +213,18 @@ public class AddNewWordFragment extends Fragment {
                             aMp3
                     )
             )){
-                this.isPreset = false;
-                this.presetEntry = null;
-                this.changeFragment.changeToHomeFragment();
+                closeFragment();
             }
         }
 
+    }
+
+    private void closeFragment(){
+        this.isPreset = false;
+        this.presetEntry = null;
+        this.word.setText("");
+        this.aMp3 = null;
+        this.changeFragment.changeToHomeFragment();
     }
     
     //1.1 volley is downloading the whole web-page

@@ -14,6 +14,8 @@ public class Wort implements Serializable {
     ArrayList<String> synonym;
     ArrayList<String> acronym;
 
+    boolean isSelected;
+
     public Wort(String germanWord, String englishMeaning) {
         this.germanWord = germanWord;
         this.englishMeaning = englishMeaning;
@@ -24,8 +26,24 @@ public class Wort implements Serializable {
         this.englishMeaning = englishMeaning;
         this.pronunciationUrl = url;
         this.pronunciation = pronunciation;
+        this.isSelected = true;
     }
 
+    public String getPronunciationUrl() {
+        return pronunciationUrl;
+    }
+
+    public void setPronunciationUrl(String pronunciationUrl) {
+        this.pronunciationUrl = pronunciationUrl;
+    }
+
+    public boolean isSelected() {
+        return isSelected;
+    }
+
+    public void setSelected(boolean selected) {
+        isSelected = selected;
+    }
 
     public String getGermanWord() {
         return germanWord;
