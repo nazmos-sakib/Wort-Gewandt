@@ -7,7 +7,7 @@
     android:background="#E1DADA"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".Fragments.sub.PlayAudioFragment">
+    tools:context="com.wortgewandt.Fragments.sub.PlayAudioFragment">
 
     <LinearLayout
         android:layout_width="match_parent"

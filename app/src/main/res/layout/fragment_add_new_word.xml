@@ -11,7 +11,7 @@
     android:layout_marginBottom="60dp"
     android:background="@drawable/add_new_word_fragment_background"
     android:orientation="vertical"
-    tools:context=".Fragments.AddNewWordFragment">
+    tools:context="com.wortgewandt.Fragments.AddNewWordFragment">
 
 
     <EditText
