@@ -15,7 +15,7 @@ import com.wortgewandt.Adapter.RecyclerAdapter;
 import com.wortgewandt.DataStorage.Data;
 import com.wortgewandt.Interface.ChangeFragment;
 import com.wortgewandt.Model.Wort;
-import com.example.wortgewandt.R;
+import com.wortgewandt.R;
 
 import java.util.ArrayList;
 import java.util.Map;

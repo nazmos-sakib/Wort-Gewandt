@@ -17,8 +17,7 @@ import com.wortgewandt.Fragments.WordListFragment;
 import com.wortgewandt.Interface.ChangeFragment;
 import com.wortgewandt.Interface.DatenAnderungMitteilen;
 import com.wortgewandt.Model.Wort;
-import com.example.wortgewandt.R;
-import com.example.wortgewandt.databinding.ActivityMainBinding;
+import com.wortgewandt.databinding.ActivityMainBinding;
 
 import java.util.Map;
 
@@ -85,8 +84,8 @@ public class MainActivity extends AppCompatActivity implements ChangeFragment, D
 
 
 
-    private int toggleFragments(Fragment fragment){
-        return this.fragmentManager.beginTransaction()
+    private void toggleFragments(Fragment fragment){
+        this.fragmentManager.beginTransaction()
                 .replace(R.id.fragmentContainerView_mainActivity, fragment, null)
                 .setReorderingAllowed(true)
                 .commit();

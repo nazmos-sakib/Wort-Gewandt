@@ -19,7 +19,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.wortgewandt.DataStorage.Data;
 import com.wortgewandt.Interface.ChangeFragment;
 import com.wortgewandt.Model.Wort;
-import com.example.wortgewandt.R;
+import com.wortgewandt.R;
 import com.wortgewandt.Utility.Pronunciation;
 
 import java.lang.ref.WeakReference;

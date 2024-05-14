@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.wortgewandt"
+    namespace = "com.wortgewandt"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.wortgewandt"
+        applicationId = "com.wortgewandt"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

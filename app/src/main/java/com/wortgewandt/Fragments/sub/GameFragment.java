@@ -18,7 +18,7 @@ import androidx.fragment.app.Fragment;
 
 import com.wortgewandt.DataStorage.Data;
 import com.wortgewandt.Model.Wort;
-import com.example.wortgewandt.R;
+import com.wortgewandt.R;
 import com.wortgewandt.Utility.Pronunciation;
 
 import java.util.ArrayList;

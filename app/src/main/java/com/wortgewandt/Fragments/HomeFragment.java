@@ -9,9 +9,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.google.android.material.snackbar.Snackbar;
+import com.wortgewandt.DataStorage.Data;
 import com.wortgewandt.Fragments.sub.GameFragment;
 import com.wortgewandt.Fragments.sub.PlayAudioFragment;
-import com.example.wortgewandt.R;
+import com.wortgewandt.R;
 
 
 public class HomeFragment extends Fragment {
@@ -68,22 +70,29 @@ public class HomeFragment extends Fragment {
         });
 
         btn_game.setOnClickListener(View->{
-            Fragment fragment = requireActivity().getSupportFragmentManager().findFragmentByTag("play-game");
 
-            if(fragment != null && fragment.isAdded())
-                requireActivity().getSupportFragmentManager().beginTransaction().remove(fragment).commit();
-            else {
-                fragment = requireActivity().getSupportFragmentManager().findFragmentByTag("play-pronunciation");
-                if (fragment != null && fragment.isAdded()) {
+            if (Data.getInstance().getDataSize()>0){
+
+                Fragment fragment = requireActivity().getSupportFragmentManager().findFragmentByTag("play-game");
+
+                if(fragment != null && fragment.isAdded())
                     requireActivity().getSupportFragmentManager().beginTransaction().remove(fragment).commit();
-                }
-                requireActivity().getSupportFragmentManager()
-                        .beginTransaction()
-                        .add(R.id.fragmentContainer_homeFragment, new GameFragment(), "play-game")
-                        .setReorderingAllowed(true)
-                        .commit();
+                else {
+                    fragment = requireActivity().getSupportFragmentManager().findFragmentByTag("play-pronunciation");
+                    if (fragment != null && fragment.isAdded()) {
+                        requireActivity().getSupportFragmentManager().beginTransaction().remove(fragment).commit();
+                    }
+                    requireActivity().getSupportFragmentManager()
+                            .beginTransaction()
+                            .add(R.id.fragmentContainer_homeFragment, new GameFragment(), "play-game")
+                            .setReorderingAllowed(true)
+                            .commit();
 
+                }
+            } else {
+                Snackbar.make(requireView(),"Saved word must be more then six",Snackbar.LENGTH_LONG).show();
             }
+
         });
 
 

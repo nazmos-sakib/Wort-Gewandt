@@ -24,7 +24,7 @@ import com.wortgewandt.ExternalRequest.MakeInternetRequest;
 import com.wortgewandt.Interface.ChangeFragment;
 import com.wortgewandt.Model.ResponseCodes;
 import com.wortgewandt.Model.Wort;
-import com.example.wortgewandt.R;
+import com.wortgewandt.R;
 import com.wortgewandt.Utility.Pronunciation;
 
 import java.util.Map;
