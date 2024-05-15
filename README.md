@@ -15,6 +15,12 @@ Join countless learners who have already revolutionized their German learning jo
          5. 5. How to Use the Project
             6. 6. Include Credits
                7. 7. Add a License
+                 
+### Permision
+
+android.permission.ACCESS_NETWORK_STATE
+android.permission.INTERNET
+com.wortgewandt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
                   
 
 ### Badges
