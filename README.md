@@ -1,5 +1,5 @@
 # [Wort-Gewandt]() Android App  📱
-<a href=""><img src="app/src/main/res/drawable/jcx6ao5ji.png?raw=true" height="70"></a> <a href=""><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="75"></a>
+<a href=""><img src="app/raw/wort-gewandt.png?raw=true" height="70"></a> <a href=""><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="75"></a>
 
 
 ### Project Description
@@ -15,19 +15,28 @@ Join countless learners who have already revolutionized their German learning jo
          5. 5. How to Use the Project
             6. 6. Include Credits
                7. 7. Add a License
-                  8. 8. Badges
-                     9. 9. How to Contribute to the Project
+                  
+
+### Badges
+<img align="left" alt="java" height="25px" src="https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg" />
+<img align="left" alt="kotlin" height="25px" src="https://upload.wikimedia.org/wikipedia/commons/0/06/Kotlin_Icon.svg" />
+<img align="left" alt="gradle" height="25px" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Gradle_logo.svg" />
+<img align="left" alt="android studio" height="25px" src="https://upload.wikimedia.org/wikipedia/commons/5/55/Android_Studio_Logo_%282023%29.svg" />
+<img align="left" alt="Parse" height="25px" src="https://parseplatform.org/img/logo.svg" />
+<br/>
+<br/>
+<br/>
 
 
-Your ratings</div><!----></div> <P></p>
-<img  width="40px" src="https://www.gstatic.com/acx/play/console//brt/play_console_ui_20240514_0240_RC00/main/play.console.ui.common.images/content_rating/CLASS_IND_L.png" alt="Classificação Indicativa (ClassInd), All ages">
-<img   width="40px" src="https://www.gstatic.com/acx/play/console//brt/play_console_ui_20240514_0240_RC00/main/play.console.ui.common.images/content_rating/ESRB_EVERYONE.png" alt="Entertainment Software Rating Board (ESRB), Everyone">
+10.  How to Contribute to the Project                     
 
-<img debug-id="rating-icon" tabindex="0" tooltiptarget="" width="40px" src="https://www.gstatic.com/acx/play/console//brt/play_console_ui_20240514_0240_RC00/main/play.console.ui.common.images/content_rating/PEGI_3.png" alt="Pan-European Game Information (PEGI), PEGI 3">
 
-<img debug-id="rating-icon" tabindex="0" tooltiptarget="" width="40px" src="https://www.gstatic.com/acx/play/console//brt/play_console_ui_20240514_0240_RC00/main/play.console.ui.common.images/content_rating/USK_0.png" alt="Unterhaltungssoftware Selbstkontrolle (USK), USK: All ages">
+App ratings<P></p>
+<img align="left" alt="Classificação Indicativa (ClassInd), All ages" height="25px" src="https://www.gstatic.com/acx/play/console//brt/play_console_ui_20240514_0240_RC00/main/play.console.ui.common.images/content_rating/CLASS_IND_L.png" />
+<img align="left" alt="Entertainment Software Rating Board (ESRB), Everyone" height="25px" src="https://www.gstatic.com/acx/play/console//brt/play_console_ui_20240514_0240_RC00/main/play.console.ui.common.images/content_rating/ESRB_EVERYONE.png" />
+<img align="left" alt="Pan-European Game Information (PEGI), PEGI 3" height="25px" src="https://www.gstatic.com/acx/play/console//brt/play_console_ui_20240514_0240_RC00/main/play.console.ui.common.images/content_rating/PEGI_3.png" />
+<img align="left" alt="Unterhaltungssoftware Selbstkontrolle (USK), USK: All ages" height="25px" src="https://www.gstatic.com/acx/play/console//brt/play_console_ui_20240514_0240_RC00/main/play.console.ui.common.images/content_rating/USK_0.png" />
+<img align="left" alt="IARC Generic, Rated for 3+" height="25px" src="https://www.gstatic.com/acx/play/console//brt/play_console_ui_20240514_0240_RC00/main/play.console.ui.common.images/content_rating/GENERIC_3.png" />
+<img align="left" alt="Google Play, Rated for 3+" height="25px" src="https://www.gstatic.com/acx/play/console//brt/play_console_ui_20240514_0240_RC00/main/play.console.ui.common.images/content_rating/GOOGLE_3.png" />
+<img align="left" alt="Google Play, Rated for 3+" height="25px" src="https://www.gstatic.com/acx/play/console//brt/play_console_ui_20240514_0240_RC00/main/play.console.ui.common.images/content_rating/GOOGLE_3.png" />
 
-<img debug-id="rating-icon" tabindex="0" tooltiptarget="" width="40px" src="https://www.gstatic.com/acx/play/console//brt/play_console_ui_20240514_0240_RC00/main/play.console.ui.common.images/content_rating/GENERIC_3.png" alt="IARC Generic, Rated for 3+">
-   <img debug-id="rating-icon" tabindex="0" tooltiptarget="" width="40px" src="https://www.gstatic.com/acx/play/console//brt/play_console_ui_20240514_0240_RC00/main/play.console.ui.common.images/content_rating/GOOGLE_3.png" alt="Google Play, Rated for 3+">
-
-<img debug-id="rating-icon" tabindex="0" tooltiptarget="" width="40px" src="https://www.gstatic.com/acx/play/console//brt/play_console_ui_20240514_0240_RC00/main/play.console.ui.common.images/content_rating/GOOGLE_3.png" alt="Google Play, Rated for 3+">
