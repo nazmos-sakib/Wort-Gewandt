@@ -1,5 +1,5 @@
 # [Wort-Gewandt]() Android App  📱
-<a href=""><img src="app/raw/wort-gewandt.png?raw=true" height="70"></a> <a href=""><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="75"></a>
+<a href=""><img src="app/raw/wort-gewandt.png?raw=true" height="70"></a> <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" height="75"></a>
 
 
 ### Project Description
