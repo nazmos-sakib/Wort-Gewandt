@@ -80,7 +80,7 @@ Join countless learners who have already revolutionized their German learning jo
 </p>
 
 ***
-# App ratings<P></p>
+# App ratings 
 <img align="left" alt="Classificação Indicativa (ClassInd), All ages" height="25px" src="https://www.gstatic.com/acx/play/console//brt/play_console_ui_20240514_0240_RC00/main/play.console.ui.common.images/content_rating/CLASS_IND_L.png" />
 <img align="left" alt="Entertainment Software Rating Board (ESRB), Everyone" height="25px" src="https://www.gstatic.com/acx/play/console//brt/play_console_ui_20240514_0240_RC00/main/play.console.ui.common.images/content_rating/ESRB_EVERYONE.png" />
 <img align="left" alt="Pan-European Game Information (PEGI), PEGI 3" height="25px" src="https://www.gstatic.com/acx/play/console//brt/play_console_ui_20240514_0240_RC00/main/play.console.ui.common.images/content_rating/PEGI_3.png" />
