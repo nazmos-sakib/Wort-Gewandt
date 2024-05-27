@@ -73,13 +73,10 @@ Join countless learners who have already revolutionized their German learning jo
 ***
 # Screenshots 
 <p align="center">
-  <img src="app/src/main/res/raw/ss_4_user_make_a_reques.jpeg" alt="Image 1" width="200" style="margin: 30px;"/>
-  <img src="app/src/main/res/raw/ss_2.jpeg" alt="Image 2" width="200" style="margin: 30px;"/>
-  <img src="app/src/main/res/raw/ss_3_driver_seeing_all_available_request.jpeg" alt="Image 3" width="200" style="margin: 30px;"/>
-  <img src="app/src/main/res/raw/ss_1.jpeg" alt="Image 4" width="200" style="margin: 30px;"/>
-  <img src="app/src/main/res/raw/ss_5_driver_seeing_over_view.jpeg" alt="Image 4" width="200" style="margin: 30px;"/>
-  <img src="app/src/main/res/raw/ss_6_driver_is_coming.jpeg" alt="Image 4" width="200" style="margin: 30px;"/>
-  <img src="app/src/main/res/raw/ss_7_request_not_accepted.jpeg" alt="Image 4" width="200" style="margin: 30px;"/>
+  <img src="app/raw/1.jpeg" alt="Image 1" width="200" style="margin: 30px;"/>
+  <img src="app/raw/2.jpeg" alt="Image 2" width="200" style="margin: 30px;"/>
+  <img src="app/raw/3.jpeg" alt="Image 3" width="200" style="margin: 30px;"/>
+  <img src="app/raw/4.jpeg" alt="Image 4" width="200" style="margin: 30px;"/>
 </p>
 
 ***
